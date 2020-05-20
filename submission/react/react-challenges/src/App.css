@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.object {
+  line-height: 5em;
+}
+span {
+  color:lime ;
+}
+* {
+  background-color: black;
+  color:white;
+}

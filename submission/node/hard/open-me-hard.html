@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        background-color: black;
+        color: lime;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div id="body-container">
+        <h1>Hello! More backend lectures, It's great!</h1>
+            <h2>These are 10 employees and their private information!</h2>
+
+        <div id="employee-container">
+        </div>
+
+    </div>
+
+</body>
+
+<script type="text/javascript">
+
+    const userContainer = document.querySelector('#employee-container');
+
+    const createNode = (element) => {
+        return document.createElement(element)
+    };
+
+    const append = (parent, child) => {
+        return parent.appendChild(child)
+    };
+
+    window.onload = fetchUsers = () => {
+        fetch("/api/employees")
+            .then((response) => {
+                return response.json()
+            })
+            .then((data) => {
+                return data.map((employees) => {
+                    let employeeDiv = createNode('div')
+                    let name = createNode('h2')
+                    let id = createNode('h3')
+                    let salary = createNode('p')
+                    let department = createNode('p')
+
+                    name.innerText = `${employee.name}`
+                    id.innerText = `${employee.id}`
+                    salary.innerText = `${employee.salary}`
+                    department.innerText = `${employee.department}`
+
+                    append(employee-container, employeeDiv)
+                    append(employeeDiv, name)
+                    append(employeeDiv, id)
+                    append(employeeDiv, salary)
+                    append(employeeDiv, department)
+
+
+                });
+            });
+        };
+        
+</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+So I know we're going to work on this in the furture so I restrained from adding in js code for random things for future use.
+
+Open the land.html first
+contact icon top right works,
+man/woman/accessories are all identical
+all products take you to the same productTemplate.html page 
+	which i'm assuming we will learn how to make our code generate pages with the suplemented information form whichever product they clicked on in the future.
+	as creating an individual page for each individual product seems very 2002.
+the universe page is going to be a hub for all of my future projects

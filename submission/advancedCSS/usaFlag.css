@@ -1,0 +1,27 @@
+/*ASSETS START*/
+.stripe {
+    height: 100px;
+    width: 2560px;
+}
+/*ASSETS END*/
+#flag   {
+    display: flex;
+    height: 1300px;
+    width: 2560px;
+    background-color: gray;
+    border: solid 20px black;
+}
+#red    {
+    background-color: red;
+}
+#white      {
+    background-color: white;
+}
+#stars  {
+    height:700px;
+    width:988px;
+    z-index: 2;
+}
+#flag-stripe__container {
+    position: absolute;
+}

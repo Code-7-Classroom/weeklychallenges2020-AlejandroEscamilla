@@ -1,0 +1,62 @@
+[
+    {
+        "id": "100",
+        "name": "Leslie Mohammed",
+        "salary": "77203",
+        "department": "front end"
+    },
+    {
+        "id": "200",
+        "name": "Safiyyah Berry",
+        "salary": "84916",
+        "department": "front end"
+    },
+    {
+        "id": "300",
+        "name": "Frida Naylor",
+        "salary": "58770",
+        "department": "back end"
+    },
+    {
+        "id": "400",
+        "name": "Evie-Mai Mellor",
+        "salary": "101143",
+        "department": "front end"
+    },
+    {
+        "id": "500",
+        "name": "Matei Mccray",
+        "salary": "68223",
+        "department": "back end"
+    },
+    {
+        "id": "600",
+        "name": "Antonia Salt",
+        "salary": "121268",
+        "department": "fullstack"
+    },
+    {
+        "id": "700",
+        "name": "Izabela Cartwright",
+        "salary": "82799",
+        "department": "fullstack"
+    },
+    {
+        "id": "800",
+        "name": "Carlie Moody",
+        "salary": "126343",
+        "department": "back end"
+    },
+    {
+        "id": "900",
+        "name": "Leoni Walters",
+        "salary": "115903",
+        "department": "fullstack"
+    },
+    {
+        "id": "1000",
+        "name": "Denis Park",
+        "salary": "107094",
+        "department": "back end"
+    }
+]

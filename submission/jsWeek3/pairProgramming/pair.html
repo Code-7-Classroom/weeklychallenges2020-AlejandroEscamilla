@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #prompt {
+        margin-left: 10%;
+        margin-right: 10%;
+        /* font-size: 2em; */
+    }
+    div {
+        padding-bottom: 100px;
+    }
+</style>
+<body>
+    <div id="prompt">
+        <!-- <p>Pair‌ ‌Programming‌ ‌Challenge:‌ ‌JavaScript‌ ‌
+            ‌
+        <div>
+            Overview‌ ‌
+            A‌ ‌common-place‌ ‌practice‌ ‌in‌ ‌Agile‌ ‌work‌ ‌environments‌ ‌is‌ ‌the‌ ‌pair‌ ‌programming.‌ ‌Today,‌ ‌you‌ ‌will‌ ‌be‌ ‌randomly‌ ‌
+            split‌ ‌into‌ ‌pairs‌ ‌and‌ ‌required‌ ‌to‌ ‌work‌ ‌virtually‌ ‌with‌ ‌your‌ ‌partner‌ ‌during‌ ‌two‌ ‌specified‌ ‌times‌ ‌within‌ ‌your‌ ‌schedule.‌ ‌ ‌
+            Before‌ ‌connecting‌ ‌with‌ ‌your‌ ‌partner,‌ ‌watch‌ ‌this‌ ‌short‌ ‌video‌ ‌(5‌ ‌mins)‌ ‌to‌ ‌expose‌ ‌yourself‌ ‌to‌ ‌pair-programming.‌ ‌
+            ● https://www.youtube.com/watch?v=ET3Q6zNK3Io ‌
+            Be‌ ‌sure‌ ‌to‌ ‌understand‌ ‌the‌ ‌benefits‌ ‌of‌ ‌this‌ ‌methodology‌ ‌and‌ ‌remember‌ ‌key‌ ‌tips‌ ‌to‌ ‌a‌ ‌successful‌ ‌partnership.‌ ‌
+            Please‌ ‌use‌ ‌the‌ ‌format‌ ‌identified‌ ‌in‌ ‌the‌ ‌video‌ ‌where‌ ‌one‌ ‌person‌ ‌is‌ ‌the‌ ‌driver‌ ‌(codes)‌ ‌while‌ ‌the‌ ‌other‌ ‌partner‌ ‌
+            navigates‌ ‌(explains‌ ‌steps‌ ‌to‌ ‌be‌ ‌taken).‌  ‌Each‌ ‌person‌ ‌should‌ ‌be‌ ‌prepared‌ ‌to‌ ‌walk‌ ‌through‌ ‌your‌ ‌code‌ ‌later‌ ‌today‌ ‌
+            during‌ ‌the‌ ‌Challenge‌ ‌Review.‌ ‌ ‌
+        ‌</div>
+
+        <div>
+            Challenges‌ ‌
+            Your‌ ‌challenges‌ ‌are‌ ‌listed‌ ‌below.‌ ‌The‌ ‌questions‌ ‌below‌ ‌are‌ ‌frequent‌ ‌whiteboard‌ ‌exercises‌ ‌given‌ ‌in‌ ‌code‌ ‌
+            interviews.‌  ‌Take‌ ‌the‌ ‌opportunity‌ ‌to‌ ‌work‌ ‌through‌ ‌the‌ ‌challenges‌ ‌based‌ ‌on‌ ‌your‌ ‌current‌ ‌skill‌ ‌set‌ ‌with‌ ‌your‌ ‌
+            partner‌ ‌to‌ ‌come‌ ‌up‌ ‌with‌ ‌solutions.‌ ‌You‌ ‌are‌ ‌welcome‌ ‌to‌ ‌use‌ ‌sources‌ ‌such‌ ‌as‌ ‌MDN‌ ‌and‌ ‌W3Schools,‌ ‌if‌ ‌you‌ ‌get‌ ‌
+            stuck.‌ ‌ ‌
+        ‌</div>
+                ‌
+‌        </div>
+        <div>            ‌
+    
+            MEDIUM‌ ‌(4)‌ ‌
+            You‌ ‌are‌ ‌given‌ ‌coins‌ ‌of‌ ‌different‌ ‌denominations‌ ‌and‌ ‌a‌ ‌total‌ ‌amount‌ ‌of‌ ‌money‌ ‌‌amount‌.‌ ‌Write‌ ‌a‌ ‌function‌ ‌to‌ ‌
+            compute‌ ‌the‌ ‌fewest‌ ‌number‌ ‌of‌ ‌coins‌ ‌that‌ ‌you‌ ‌need‌ ‌to‌ ‌make‌ ‌up‌ ‌that‌ ‌amount.‌ ‌If‌ ‌that‌ ‌amount‌ ‌of‌ ‌money‌ ‌cannot‌ ‌be‌ ‌
+            made‌ ‌up‌ ‌by‌ ‌any‌ ‌combination‌ ‌of‌ ‌the‌ ‌coins,‌ ‌return‌ ‌‌-1‌.‌ ‌
+
+            Example‌ ‌1:‌ ‌
+            Input:‌ ‌coins‌ ‌=‌ ‌[1,‌ ‌2,‌ ‌5],‌ ‌amount‌ ‌=‌ ‌11‌ ‌
+            Output:‌ ‌3‌ ‌ ‌
+            Explanation:‌ ‌11‌ ‌=‌ ‌5‌ ‌+‌ ‌5‌ ‌+‌ ‌1‌ ‌
+
+            Example‌ ‌2:‌ ‌
+            Input:‌ ‌coins‌ ‌=‌ ‌[2],‌ ‌amount‌ ‌=‌ ‌3‌ ‌
+            Output:‌ ‌-1‌ ‌
+            ‌
+            Note:‌ ‌You‌ ‌may‌ ‌assume‌ ‌that‌ ‌you‌ ‌have‌ ‌an‌ ‌infinite‌ ‌number‌ ‌of‌ ‌each‌ ‌kind‌ ‌of‌ ‌coin.‌ ‌
+        </div> -->
+    <!-- </p> -->
+
+<script type="text/javascript" src="pair.js"></script>
+</body>
+</html>

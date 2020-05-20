@@ -1,0 +1,44 @@
+<!-- // HARD: Create two buttons, one that when clicked turns the background of 
+the body red. The other, when clicked, turns the body's 
+// background color white. Each of the background colors should be defined 
+as class styles and when the buttons are pushed the body's
+//  classList is updated to include the correct class for the background. 
+// Create a single function that takes an input className and updates the 
+body's classList to ONLY include that className
+// Check the Assigned Weekly Challenges Repo under 10-modernjs/challenges/hard for html starter code. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    button {
+        padding: 40px;
+        border-radius: 40px;
+        background-color: black;
+        color: lime;
+        font-size: 2em;
+    }
+</style>
+    
+<body>
+    <button class='button red'>Click me to paint it red!</button>
+    <button class='button white'>Click me to paint it white!</button>
+
+<script>
+
+document.querySelector('.red').addEventListener('click', function() {
+document.querySelector('body').style['background-color'] ='red';
+});
+
+document.querySelector('.white').addEventListener('click', function() {
+document.querySelector('body').style['background-color'] ='white';
+});
+
+</script>
+
+</body>
+</html>

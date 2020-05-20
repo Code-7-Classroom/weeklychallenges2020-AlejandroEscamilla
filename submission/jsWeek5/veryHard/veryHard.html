@@ -1,0 +1,32 @@
+<!-- // VERY HARD: Write a function that takes in a string and outputs the
+ *first* occurrence of a character that does not repeat itself 
+
+// in that string. Output the first character in a string that is unique.
+// Input: “the quick brown fox jumps over the calm kitten quietly”  Output: “b”
+// Input: “this hat is the greatest!”  Output: “g”
+// Input: “what a wonderful day it has been!”  Output: “o” -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        let sen1 = "I have a son named Gianluca.";
+        let sen2 = "Gianluca is a shih-poo, also known as part poodle, part shih-tzu.";
+        let sen3 = "I wouldn't trade my son for anything in the world.";
+    
+function repeater(sen) {
+    var splitter = /\w_/g; //replace spaces so that string would be compacted 'likethis' isntead of 'like this'
+    var runner = sen.toLowerCase().replace(splitter, ''); //turns it into all lowercases
+    return runner
+};
+console.log(repeater(sen1));
+    
+
+
+    </Script>
+</body>
+</html>

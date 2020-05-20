@@ -1,0 +1,115 @@
+
+body    {
+    padding: 50px;
+    border: solid white 10px;
+    background-color: #cf8248;
+    color:#2e2e2e;
+    font-family: 'Times New Roman', Times, serif;
+}
+.page-title__header::before    {
+    background-color: #cf8248;
+    color:#2e2e2e;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1  {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h2, h3, h4, h5  {   
+    font-family: serif;
+    font-weight: bold;
+}
+p, li   {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+header  {
+    display: flex;
+    justify-content: space-between;
+}
+#title-psuedo__hover    {
+    font-size: .2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#title-psuedo__hover:hover .style-hover__target {
+}
+.page-title__header {
+    text-align: center;
+    height:150px;
+}
+#header-weather__container  {
+    width: 200px;
+    height: 150px;
+    border: solid black;
+}
+#header-h1__container   {
+    font-size: 2.2em;
+    line-height: .5em;
+    border: solid black;
+}
+#header-h1__span    {
+    font-size: 1em;
+}
+#header-edition__container  {
+    width: 200px;
+    height: 150px;
+    border: solid black;
+    font-size: 2em;
+}
+#head-list__flex    {
+    display: flex;
+    font-size: .7em;
+    justify-content: space-between;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    line-height: 4em;
+}
+.title-headings__style  {
+    font-size: 4em;
+}
+#title-h3__style    {
+    border-bottom: solid black 5px;
+    font-weight: normal;
+}
+#title-h2__style    {
+    line-height: .3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title-description__style   {
+    line-height: .3em;
+    font-weight: normal;
+}
+.body-column__container {
+    width: 10%;
+}
+.body-text__style {
+    font-size: .9em;
+}
+#page-content__grid {
+    display: grid;
+    object-fit: cover;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 140px 140px 140px 140px 140px 140px;
+    padding: 10px;
+}
+.grid-image__size   {
+    height: 400px;
+}
+#grid-h__11 {
+    grid-row: 1/6;
+    grid-column: 1/2;
+}
+#top-div__26 {
+    grid-row: 1/6;
+    grid-column: 2/3;
+}
+#top-div__46    {
+    grid-row: 1/6;
+    grid-column: 3/4;
+}
+#top-div__57    {
+    grid-row: 1/6;
+    grid-column: 4/7;
+}

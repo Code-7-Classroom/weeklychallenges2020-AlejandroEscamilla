@@ -1,0 +1,57 @@
+/*ASSETS START*/
+.row-product__container {
+    background-color: white;
+    border: solid darkgray;
+    box-shadow: black 2px 2px 10px;
+    width: 22.25%;
+    display: flex;
+    padding: 1% 1% 1% 1%;
+}
+.row-product__container h2    {
+    height: 25%;
+    font-size: 1em;
+}
+.description-text__float    {
+    padding-left: 3%;
+    padding-top: 10%;
+}
+.section-row__style     {
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    display: inline-flex;
+}
+.product-image__style img  {
+    object-fit: cover;
+}
+.product-image__style   {
+    width: 100px;
+    height: 100px;
+}
+/*ASSETS END*/
+body    {
+    background-color: slategray;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: navy 1px 3px 6px;
+    font-size: 2em;
+}
+span    {
+    color: green;
+}
+h3  {
+    color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p   {
+    font-family: sans-serif;
+}
+a   {
+    text-decoration: none;
+    color: darkblue;
+}
+#product-container__style   {
+    flex-direction: row;
+}

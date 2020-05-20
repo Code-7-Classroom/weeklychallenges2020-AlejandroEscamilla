@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // <!-- VERY EASY: What is the difference between the following JavaScript keywords: var, let and const.  Please provide a written explanation. 
+        // You are able to include a code reference along with your written explanation for each keyword.
+
+        document.write("Hello! Open the console!")
+        // var = funciton scoped, can be updated, can be redeclared;
+
+        var example = 2;
+        console.log(example);
+        var example = 4;
+
+        // let = block scoped, can be updated, can NOT be redeclared;
+
+        let example2 = 2;
+        console.log(example2);
+     // let example2 = 4; will return "Identifier 'example2' has already been declared" in console
+
+        // const = block scoped, can NOT be updated, can NOT be redeclared;
+
+        const example3 = 4;
+        console.log(example3);
+     // const example3 = 6; will return "Identifier 'example3' has already been declared" in console
+     // example3 = 8; will return "Assignment to constant variable. at veryEasy.html:31 @ veryEasy.html:31"
+     
+        console.log(example);
+        console.log(example2);
+        console.log(example3);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This was the week that my personal life took over my priorities for the week and weekend.
